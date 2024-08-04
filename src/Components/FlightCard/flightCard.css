@@ -1,0 +1,47 @@
+.card {
+    background-color: #E8EBF2;
+    width: 50vw;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-radius: 8px;
+    padding: 20px 40px;
+}
+
+.row1,
+.row2, 
+.row3 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.p-price {
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: #4E148C;
+    padding: 0;
+    margin: 0;
+}
+
+.p-default {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #858AE3;
+    padding: 0;
+    margin: 0;
+}
+
+.p-active {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #4E148C;
+    padding: 0;
+    margin: 0;
+}
